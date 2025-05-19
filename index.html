@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>izzi</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Old+Standard+TT:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+</head>
+<body>
+    <section id="purple-bg">
+        <section id="navigation">
+            <div class="left-side">
+                <img src="public/logo.png" alt="izzi logo" class="logo">
+                <nav>
+                    <a href="#my-orders" class="nav-link">My orders</a>
+                    <a href="#help" class="nav-link">Help</a>            
+                    <a href="#services" class="nav-link">Services</a>                        
+                </nav>
+            </div>
+            <div class="right-side">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="search-icon bi bi-search" viewBox="0 0 16 16">
+                    <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0"/>
+                </svg>
+                <a href="#sign-in" class="sign-in">Sign in</a>
+                <button class="sign-up">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" fill="currentColor" class="bi bi-lock" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M8 0a4 4 0 0 1 4 4v2.05a2.5 2.5 0 0 1 2 2.45v5a2.5 2.5 0 0 1-2.5 2.5h-7A2.5 2.5 0 0 1 2 13.5v-5a2.5 2.5 0 0 1 2-2.45V4a4 4 0 0 1 4-4M4.5 7A1.5 1.5 0 0 0 3 8.5v5A1.5 1.5 0 0 0 4.5 15h7a1.5 1.5 0 0 0 1.5-1.5v-5A1.5 1.5 0 0 0 11.5 7zM8 1a3 3 0 0 0-3 3v2h6V4a3 3 0 0 0-3-3"/>
+                    </svg>
+                    Sign up
+                </button>
+            </div>
+        </section>
+
+        <h1>Find your best</h1>
+    </section>
+
+    <section id="phone-navigation">
+        <svg id="menu" xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+            <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5"/>
+        </svg>
+        <div id="sidebar" class="dont-show">
+            <ul>
+                <li><a href="#">My orders</a></li>
+                <li><a href="#">Help</a></li>
+                <li><a href="#">Services</a></li>
+            </ul>
+        </div>
+        <img src="public/logo.png" alt="izzi logo" class="logo">
+        <img src="public/avatar.png" alt="avatar" class="avatar">
+    </section>
+
+    <section id="header-info">
+        <p class="all-services">✊ All serrvices</p>
+        <h2>Find your best</h2>
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. When an unknown printer.</p>
+    </section>
+
+    <section id="services">
+        <div class="card" id="babysitter">
+            <div class="cover-image">
+                <img src="public/babysitter.png" alt="babysitter-cover" class="background-image">
+                <div class="main-info">
+                    <h3>Babysitter</h3>
+                    <p class="money">💵 Starts from 10$/h</p>
+                </div>
+            </div>
+            <div id="babysitter-details" class="details dont-show">
+            </div>
+        </div>
+
+        <div class="card" id="beauty">
+            <div class="cover-image">
+                <img src="public/beauty.png" alt="beauty-cover" class="background-image">
+                <div class="main-info">
+                    <h3>Beauty</h3>
+                    <p class="money">💵 Starts from 25$/h</p>
+                </div>
+            </div>
+            <div id="beauty-details" class="details dont-show">
+            </div>
+        </div>
+
+        <div class="card" id="cleaning">
+            <div class="cover-image">
+                <img src="public/cleaning.png" alt="cleaning" class="background-image">
+                <div class="main-info">
+                    <h3>Cleaning</h3>
+                    <p class="money">💵 Starts from 11$/h</p>
+                </div>
+            </div>
+            <div id="cleaning-details" class="details dont-show">
+            </div>
+        </div>
+
+        <div class="card" id="home-repair">
+            <div class="cover-image">
+                <img src="public/home-repair.png" alt="home-repair-cover" class="background-image">
+                <div class="main-info">
+                    <h3>Home repair</h3>
+                    <p class="money">💵 Starts from 26$/h</p>
+                </div>
+            </div>
+            <div id="repair-details" class="details dont-show">
+            </div>
+        </div>
+
+        <div class="card" id="other-services">
+            <div class="cover-image">
+                <img src="public/other-services.png" alt="other-services-cover" class="background-image">
+                <div class="main-info">
+                    <h3>Other services</h3>
+                    <p class="money">💵 Starts from 14$/h</p>
+                </div>
+            </div>
+            <div id="other-details" class="details dont-show">
+            </div>
+        </div>
+
+        <div class="card" id="special-care">
+            <div class="cover-image">
+                <img src="public/special-care.png" alt="special-care-cover" class="background-image">
+                <div class="main-info">
+                    <h3>Special care</h3>
+                    <p class="money">💵 Starts from 10$/h</p>
+                </div>
+            </div>
+            <div id="sp-care-details" class="details dont-show">
+            </div>
+        </div>
+    </section>
+
+    <section id="footer">
+        <img src="public/apps.png" alt="download app">
+        <img src="public/footer.png" alt="footer">
+    </section>
+
+
+    <script src="index.js"></script>
+</body>
+</html>
